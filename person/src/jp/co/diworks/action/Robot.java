@@ -19,6 +19,5 @@ public class Robot {
 			System.out.println(this.name + "が走る");
 		}
 		
-			
 
 }
