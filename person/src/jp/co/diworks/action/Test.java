@@ -100,6 +100,43 @@ public class Test {
 				
 				kazuma.run();
 				
+				
+		Robot aibo = new Robot();
+			
+			aibo.name = "田中太郎";
+			
+				System.out.println(aibo.name);
+				
+				aibo.talk();
+				
+				aibo.walk();
+				
+				aibo.run();
+				
+		Robot asimo = new Robot();
+		
+			asimo.name = "佐藤花子";
+			
+				System.out.println(asimo.name);
+				
+				asimo.talk();
+				
+				asimo.walk();
+				
+				asimo.run();
+				
+		Robot pepper = new Robot();
+		
+			pepper.name = "松本次郎";
+			
+				System.out.println(pepper.name);
+				
+				pepper.talk();
+				
+				pepper.walk();
+				
+				pepper.run();
+				
 	}
 
 }
