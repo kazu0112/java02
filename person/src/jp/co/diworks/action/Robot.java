@@ -1,19 +1,24 @@
 package jp.co.diworks.action;
 
 public class Robot {
+	
+	public String name = null;
+	
+		public void talk() {
+			
+			System.out.println(this.name + "が話す");
+		}
+		
+		public void walk() {
+			
+			System.out.println(this.name + "が歩く");
+		}
+		
+		public void run() {
+			
+			System.out.println(this.name + "が走る");
+		}
+		
+			
 
-	public static void main(String[] args) {
-		
-		Person taro = new Person();
-		
-			taro.name = "山田太郎";
-			
-				System.out.println(taro.name);
-			
-				taro.talk();
-			
-				taro.walk();
-			
-				taro.run();	
-	}
 }
