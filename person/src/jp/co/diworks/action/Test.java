@@ -10,9 +10,17 @@ public class Test {
 					
 			taro.age = 20;
 			
+			taro.phoneNumber = "090-1234-5678";
+					
+			taro.address = "taro@gmail.com";
+			
 				System.out.println(taro.name);
 				
 				System.out.println(taro.age);
+				
+				System.out.println(taro.phoneNumber);
+				
+				System.out.println(taro.address);
 				
 		Person jiro = new Person();
 		
@@ -20,9 +28,19 @@ public class Test {
 			
 			jiro.age = 18;
 			
+			jiro.phoneNumber = "080-1234-5678";
+			
+			jiro.address = "jiro@gmail.com";
+			
 				System.out.println(jiro.name);
 				
 				System.out.println(jiro.age);
+				
+				System.out.println(jiro.phoneNumber);
+				
+				System.out.println(jiro.address);
+				
+				
 				
 		Person hanako = new Person();
 		
@@ -30,9 +48,17 @@ public class Test {
 			
 			hanako.age = 16;
 			
+			hanako.phoneNumber = "070-1234-5678";
+			
+			hanako.address = "hanako@gmail.com";
+			
 				System.out.println(hanako.name);
 				
 				System.out.println(hanako.age);
+				
+				System.out.println(hanako.phoneNumber);
+				
+				System.out.println(hanako.address);
 				
 		Person kazuma = new Person();
 		
@@ -40,9 +66,17 @@ public class Test {
 			
 			kazuma.age = 26;
 			
+			kazuma.phoneNumber = "090-0000-0000";
+			
+			kazuma.address = "kazuma@gmail.com";
+			
 				System.out.println(kazuma.name);
 				
 				System.out.println(kazuma.age);
+				
+				System.out.println(kazuma.phoneNumber);
+				
+				System.out.println(kazuma.address);
 				
 	}
 
