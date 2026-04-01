@@ -22,6 +22,12 @@ public class Test {
 				
 				System.out.println(taro.address);
 				
+				taro.talk();
+				
+				taro.walk();
+				
+				taro.run();
+				
 		Person jiro = new Person();
 		
 			jiro.name = "木村次郎";
@@ -40,7 +46,11 @@ public class Test {
 				
 				System.out.println(jiro.address);
 				
+				jiro.talk();
 				
+				jiro.walk();
+				
+				jiro.run();
 				
 		Person hanako = new Person();
 		
@@ -60,6 +70,12 @@ public class Test {
 				
 				System.out.println(hanako.address);
 				
+				hanako.talk();
+				
+				hanako.walk();
+				
+				hanako.run();
+				
 		Person kazuma = new Person();
 		
 			kazuma.name = "加藤一真";
@@ -77,6 +93,12 @@ public class Test {
 				System.out.println(kazuma.phoneNumber);
 				
 				System.out.println(kazuma.address);
+				
+				kazuma.talk();
+				
+				kazuma.walk();
+				
+				kazuma.run();
 				
 	}
 
